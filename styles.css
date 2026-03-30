@@ -267,6 +267,8 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30p
 }
 .regalo .regalo-paragraph {
     color: var(--porcelain);
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .icon {
@@ -688,6 +690,6 @@ footer .container p {
     }
 
     .scroll-arrow {
-        bottom: 0px;
+        bottom: 30px;
     }
 }
