@@ -30,7 +30,7 @@ body {
     -webkit-text-size-adjust: 100%;
     font-size: 18px;
     font-weight: 500;
-    background-color: var(--light-green);
+    background-color: var(--green);
 }
 
 .container {
@@ -355,7 +355,7 @@ footer {
     padding: 20px;
     background-color: var(--green);
     color: white;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 /* Stile per la freccia di scroll */
@@ -569,6 +569,8 @@ footer .container p {
  font-family: inherit;
  font-size: 17px;
  padding: 0.6em 1.5em;
+ -webkit-animation: pulse 2s infinite;
+ animation: pulse512 1.5s infinite;
 }
 
 .button-confirm:hover {

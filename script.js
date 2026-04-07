@@ -50,7 +50,7 @@ window.addEventListener('scroll', function () {
 
     // Calcola l'opacità in base alla posizione di scroll
     // Inizia a sbiadire quando iniziamo a scorrere
-    const opacity = Math.max(0, 1 - (scrollPosition / (windowHeight * 0.7)));
+    const opacity = Math.max(0, 1.2 - (scrollPosition / (windowHeight * 0.9)));
 
     // Applica l'opacità all'header
     header.style.opacity = opacity;
